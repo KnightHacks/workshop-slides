@@ -1,0 +1,354 @@
+00:26:51	Robert Boyd:	I can help with installation if anyone needs help
+00:26:55	Robert Boyd:	Message me privately
+00:27:15	Harold Padilla:	Definitely ask for help if you need help! We want to make sure everyone is on the same page :D
+00:27:24	Corey Michaud:	Do we need to know react for this?
+00:27:30	Christopher Feltner:	Nope!
+00:27:33	Corey Michaud:	amazing
+00:27:35	Christopher Feltner:	We’re learning it together today
+00:27:55	Jacob Feigenheimer:	How have you guys been enjoying VScode btw?
+00:29:31	Conor O'Malley:	vue!
+00:29:32	Jose Iciano:	We don't speak about angular
+00:29:34	Anthony Heggin:	VScode is sick! 
+00:29:39	Lior Barak:	yoo sup conor
+00:29:42	Conor O'Malley:	hey Lior
+00:30:01	Jacob Feigenheimer:	Is it? What's the appeal Anthony?
+00:30:26	Jose Iciano:	you want something that does everything? and is lightweight? vscode says hello. 
+00:30:49	Jose Iciano:	On a very loose level, you can think of react as object orienting web development 
+00:30:55	Robert Boyd:	I will always vouch for vim
+00:30:56	Jose Iciano:	at least that's how I viewed it starting out
+00:31:28	Ricardo Ruiz:	A good resource I’ve found for react is fullstackopen
+00:31:48	Anthony Heggin:	There's definitely other code editors that perform well but it's pretty extendable, but doesn't feel bloated and just works haha
+00:31:54	Conor O'Malley:	yo how do I make an account at boostrap studio, I don't see any register button
+00:38:30	Conor O'Malley:	wait twitch uses firebase?
+00:39:18	Corey Michaud:	Can you post it in the chat?
+00:39:51	Anthony Heggin:	https://reactjs.org/docs
+00:39:57	Corey Michaud:	The GitHub workshop
+00:40:13	Dylan Skelly:	https://github.com/Dylans123/KH-React-Firebase-Workshop
+00:41:35	Jose Iciano:	If you see on the docs some other structure theyre using, like "Const (class) = (props) => {}", that's called "functional components" or "hooks," which are merely a different way of doing the same thing being shown right now. Everything you see one way can be done the other way. 
+00:41:43	Jose Iciano:	I know that was confusing to me when I first started
+00:43:36	Jose Iciano:	it just works
+00:44:58	Conor O'Malley:	whats mount vs render?
+00:45:05	Jose Iciano:	Mount occurs before render
+00:45:45	Christopher Feltner:	Mount = Appears on the page
+00:45:52	Christopher Feltner:	Render = Changes
+00:46:07	Jose Iciano:	ohh that's how its different 
+00:46:10	Jose Iciano:	istand corrected
+00:46:26	Conor O'Malley:	I got it
+00:46:31	Tyler Pearson:	I got it
+00:46:31	Jared Neumann:	do we always have to mount a component before rendering it?
+00:46:32	Corey Michaud:	me
+00:46:32	Jake Belga:	I'm cloning it now
+00:46:34	Lior Barak:	I have it
+00:46:37	Owen Brahms:	I've got it!
+00:47:25	Nicholas Gray:	>_>
+00:47:26	Jacob Feigenheimer:	I...Don't recall how to clone on GitHub so...
+00:47:39	Jose Iciano:	if you got git installed
+00:47:52	Jose Iciano:	get the link for the repo from the repo page
+00:47:58	Jose Iciano:	in a command prompt go to where you want to clone
+00:48:02	Jose Iciano:	git clone (repo link)
+00:48:05	Jake Belga:	you go to the repo and then get the clone link from GitHub.Then in command line you type "git clone <cloneurl>"
+00:48:16	Christopher Feltner:	The API key is a password for your firebase, so it needs to be protected. Make sure not to check it into your git repository because then people online can see it.
+00:48:21	John Pham:	does indentation style and spacing matter in JS or no
+00:48:27	Christopher Feltner:	No
+00:48:32	John Pham:	cool
+00:48:43	Conor O'Malley:	how would I integrate firebase if I was just using node js, not react or anything
+00:49:22	Christopher Feltner:	Firebase is a cloud service that’s easy to use, but it can be used with Python, C++, etc. You can check the firebase documentation if you want to integrate with a different language since it’s different for each.
+00:49:51	Christopher Feltner:	When we get to the firebase part of the workshop this might become more clear how you can use it with other environments
+00:51:21	Jacob Feigenheimer:	Does it need to be taken through git clone or can it be downloaded through the zip?
+00:51:30	Conor O'Malley:	wait should I have checked setup firebase hosting for this app
+00:51:32	Robert Boyd:	Zip is fine
+00:51:36	Robert Boyd:	But you should learn git
+00:51:37	Jake Belga:	for npm install, do we need to be in a specific directory?
+00:51:49	Robert Boyd:	Yep the main directory
+00:51:52	Robert Boyd:	Not in a subfolder
+00:51:56	Jake Belga:	aight
+00:52:01	Jacob Feigenheimer:	I agree, but it's hard to keep up while trying to keep up with this.
+00:52:01	Christopher Feltner:	The root directory of your project
+00:52:01	Abdul-Malik Mustapha:	what should the package name be?
+00:52:02	Lior Barak:	wait how do I add an app to firebase
+00:52:13	Conor O'Malley:	yo pause bro slow down
+00:52:47	Harold Padilla:	Remember there's a feedback form at the end 👀
+00:52:59	Lior Barak:	so I got lost right after opening up the code in vscode
+00:53:03	Conor O'Malley:	should I check "setup firebase hosting"  when I am adding firebase to web app
+00:53:24	Lior Barak:	oh I have that open I meant getting firebase set up after that
+00:53:39	Lior Barak:	yes yes yes
+00:53:39	Conor O'Malley:	why are we hooking up complete-chat to skeleton-chat
+00:54:02	Anthony Heggin:	git clone https://github.com/Dylans123/KH-React-Firebase-Workshop.git
+00:54:17	Anthony Heggin:	If you guys want to know how to clone stuff, you'd be in the command prompt and whatever directory you want
+00:54:30	Christopher Feltner:	@conor if you want to call it something else you can, I think it’s because Dylan already has a firebase app with that name on his account
+00:54:34	Conor O'Malley:	okay but do I check "Also setup firebase hosting" when I deploy as web app
+00:54:38	Corey Michaud:	Is that firebase js file the “template” to always use?
+00:55:53	Jacob Feigenheimer:	Also just to make sure one more time but which folder are we opening for this, the chat or the skeleton in VSCode?
+00:56:03	Nicholas Yardich:	I joined a bit late, already cloned the git repo, can I have a link to firebase?
+00:56:41	Robert Boyd:	console.firebase.google.com
+00:56:50	Nicholas Yardich:	Thanks rob
+00:56:55	Robert Boyd:	Np
+00:57:05	Conor O'Malley:	do I need to do firebase init in the terminal?
+00:57:07	Conor O'Malley:	or no
+00:57:37	Conor O'Malley:	yeah
+00:57:44	Anthony Heggin:	Did you already explain where to get the keys?
+00:58:37	Conor O'Malley:	I just copied the whole config thing and renamed it config
+00:58:43	Nicholas Gray:	where are the settings again?
+00:59:04	Nicholas Gray:	thank you!
+00:59:28	Conor O'Malley:	yeah
+01:00:00	Abdul-Malik Mustapha:	can you go over the api key again?
+01:00:04	Nicholas Gray:	we are working in skeleton-chat folder, right?
+01:00:09	Jacob Feigenheimer:	So what file are we trying to open in VScode though specifically?
+01:00:14	Lior Barak:	complete-chat
+01:00:14	Conor O'Malley:	in vscode you can just do ctrl + `
+01:00:19	Conor O'Malley:	to open an integrated terminal
+01:00:22	Anthony Heggin:	we're working in the complete chat first to make sure it's working
+01:00:44	Nicholas Gray:	alright, thank you
+01:00:46	Abdul-Malik Mustapha:	and the auth domain and the database url?
+01:00:52	Lior Barak:	^
+01:00:56	Anthony Heggin:	Yes I only also see the web API Key
+01:01:04	Nicholas Yardich:	^
+01:01:11	Lior Barak:	^
+01:01:17	Camilo Romero:	^
+01:01:31	Conor O'Malley:	I see it, did you guys deploy?
+01:01:39	Nicholas Gray:	change the option up top to config
+01:01:42	Nicholas Yardich:	i don't know what i did lol
+01:01:46	Nicholas Gray:	SDK snippet
+01:01:54	Lior Barak:	ohh
+01:01:56	Lior Barak:	i had it on automatic
+01:01:58	Lior Barak:	i see it now
+01:02:08	Nicholas Yardich:	where do you paste it again?
+01:02:26	Nicholas Yardich:	thanks
+01:02:34	Jacob Feigenheimer:	Feel like I'm just sorta really behind atm. Just want to reconfirm but were will this recording be posted?
+01:02:41	Conor O'Malley:	forsenCD
+01:02:53	Lior Barak:	now i see what conor was talking about with the copy paste
+01:02:55	Robert Boyd:	It will be posted to YouTube
+01:02:56	Lior Barak:	big brain
+01:02:58	Harold Padilla:	https://www.youtube.com/channel/UC_i6HblrGGeNdmKd1QbKlKg
+01:03:08	Jacob Feigenheimer:	Appreciated.
+01:03:09	John Pham:	mine says "no such job"
+01:03:11	John Pham:	when I try to cd
+01:03:19	John Pham:	no
+01:03:43	Conor O'Malley:	you can also do cd + c then press tab to auto complete
+01:03:46	Nicholas Gray:	what does "looking for funding" mean
+01:03:48	Nicholas Yardich:	if you're using vscode you can just open a terminal in that directory
+01:04:09	Robert Boyd:	Projects can request for donations @Nicholas
+01:04:11	Anthony Heggin:	looking for funding is just the projects that are looking for funding i'm pretty sure, it should mean everything is working probably
+01:04:18	John Pham:	oh I'm a moron I typed the "%" before cd
+01:04:23	Anthony Heggin:	properly*
+01:04:37	Conor O'Malley:	not your fault, he has weird custom settings in his terminal
+01:04:44	Robert Boyd:	You commonly see a % or $ in front of a command intended to be run in a terminal
+01:04:48	Conor O'Malley:	every sane person uses a dollar sign instead of a %
+01:04:50	Corey Michaud:	Do we always do that when writing the code?
+01:04:59	Robert Boyd:	Zsh by default isn’t sane
+01:05:34	John Pham:	it says I don't have nodejs but I installed it before
+01:05:37	Nicholas Gray:	what does "looking for funding" mean?
+01:05:41	Conor O'Malley:	i think you forgot npm init
+01:05:42	Nicholas Yardich:	give me another month to install everything
+01:05:44	Lior Barak:	one day i will finish the install as well
+01:05:46	Conor O'Malley:	none of will have the packages installed
+01:05:52	Jake Belga:	it started for me
+01:06:00	Jake Belga:	I see a login screen on one of my tabs
+01:06:03	Matt Carreon:	mine's working
+01:06:07	Corey Michaud:	Should it open a react website?
+01:06:08	Conor O'Malley:	worked for me too
+01:06:15	Conor O'Malley:	yeah
+01:06:15	Corey Michaud:	yes
+01:06:25	Joseph Sauceda:	same
+01:06:30	Conor O'Malley:	go to localhost:3000/login maybe?
+01:06:40	Robert Boyd:	Try it in the native terminal again
+01:06:41	Conor O'Malley:	es
+01:06:41	Jake Belga:	Yep
+01:06:42	Corey Michaud:	yes
+01:06:42	Conor O'Malley:	yes
+01:06:43	Joseph Sauceda:	yes
+01:06:45	Owen Brahms:	Yes!
+01:06:56	Lior Barak:	xd my install is slow as hek
+01:06:56	Nicholas Gray:	don't forget ctrl c might be closing it
+01:07:10	Robert Boyd:	You can try `rm -rf` on node_modules
+01:07:18	Conor O'Malley:	^
+01:07:19	Nicholas Gray:	oh I thought you were trying to copy it
+01:07:21	Nicholas Gray:	derp
+01:07:21	Robert Boyd:	And redo `npm i`
+01:07:47	Tyler Pearson:	do you have it open already it looked like one of your tabs was the react app
+01:08:05	Dylan Skelly:	https://complete-chat-b7cff.firebaseapp.com/login
+01:08:19	John Pham:	not foundram Files/nodejs/npm: 3: I keep getting this
+01:08:21	Conor O'Malley:	rm -d "/c/windows/system32"
+01:08:40	Nicholas Gray:	sudo?
+01:08:40	Robert Boyd:	Oh no
+01:09:04	Jake Belga:	I got this error when seeing what happens when I sign up:Error: The given sign-in provider is disabled for this Firebase project. Enable it in the Firebase console, under the sign-in method tab of the Auth section.
+01:09:14	Lior Barak:	LOL conor no
+01:09:19	Lior Barak:	idk enough about this i might just run that command
+01:09:52	Lior Barak:	oo once it loads whats the login
+01:09:54	Lior Barak:	do we just make a new account
+01:10:01	Conor O'Malley:	it worked for me when I ran it from vs code
+01:10:09	Vishal Purohitham:	same
+01:10:13	Nicholas Yardich:	worked for me too
+01:10:45	Harold Padilla:	No cyber terrorism in the chat please, referring to an earlier comment
+01:10:56	Areeb Iqbal:	Im a little behind, what was I supposed to change in project settings for firebase
+01:11:04	Conor O'Malley:	i get permission denied why I try to make a message
+01:11:31	John Pham:	I can't do anything npm in the terminal
+01:11:31	Nicholas Yardich:	i get a network error
+01:11:41	Nicholas Gray:	I was able to!
+01:11:47	Lior Barak:	what do we do on the login screen?
+01:11:47	Jake Belga:	I'm up to speed 
+01:11:51	Robert Boyd:	John Pham did you install node.js?
+01:11:55	John Pham:	I did
+01:12:12	Robert Boyd:	Hmm what does `npm -v` return?
+01:12:19	Jake Belga:	The version of npm
+01:12:26	John Pham:	@Robert : not foundram Files/nodejs/npm:
+01:12:27	Nicholas Yardich:	you pass the quiz
+01:12:48	Robert Boyd:	@John are you on discord?
+01:12:52	John Pham:	I am
+01:12:57	Robert Boyd:	DM me I’m @rob-3
+01:12:59	Anthony Heggin:	how did you guys start the development server again?
+01:13:13	Robert Boyd:	`npm start`
+01:13:17	Jonathan Dieu:	is this recorded at all?
+01:13:20	Robert Boyd:	Without backticks
+01:13:21	Robert Boyd:	Yes
+01:13:25	Anthony Heggin:	thanks!
+01:13:29	Jonathan Dieu:	awesome thanks
+01:13:33	Harold Padilla:	It'll be on our YouTube within 24ish hours!
+01:13:42	Robert Boyd:	Youtube link is pinned in the #club-workshops channel on discord
+01:13:53	Shawnn Ongyiu:	Thank you!
+01:14:10	Anthony Heggin:	Awesome!
+01:14:24	Corey Michaud:	Wait how do I leave the npm start
+01:14:47	Corey Michaud:	ty
+01:14:53	Corey Michaud:	Then what do I type in consol
+01:15:05	Jake Belga:	"cd .." to go back to the parent folder
+01:15:22	Jake Belga:	then "cd skeleton-chat" to get into the skeleton folder corey
+01:15:28	Nicholas Gray:	parsing error
+01:15:30	Nicholas Gray:	login.js
+01:15:43	Corey Michaud:	Oh okay thanls
+01:16:42	Eric Sayegh:	Did you say this will be posted later for us to refer to?
+01:16:46	Christopher Feltner:	yes
+01:16:54	Conor O'Malley:	if you're in cmd do "tree C:"
+01:17:48	Shawnn Ongyiu:	Why is "super" crossed out under "constructor"?
+01:19:30	Conor O'Malley:	Dylan, callbacks, promises, or async/await
+01:19:36	Conor O'Malley:	you choose
+01:20:54	Owen Brahms:	Would we not want to put that code in the callback for setState? Since setState is typically asynchronous by default? Or do we not care in this case?
+01:21:08	Conor O'Malley:	what happens after the sign in, I don't see any code that could confirm the user? or does the sign in function do that somehow
+01:22:17	Conor O'Malley:	how come im not getting any html syntax in my jsx
+01:23:30	Conor O'Malley:	how do you have your thing auto compiling on save?
+01:24:05	Conor O'Malley:	oh I haven't hosted it yet mb
+01:24:31	Corey Michaud:	I see a big chat thing
+01:24:52	Matt Carreon:	logout
+01:25:00	Corey Michaud:	oh
+01:25:05	Matt Carreon:	happened to me too lol
+01:26:35	Conor O'Malley:	why is it logging it twice?
+01:27:31	Matt Carreon:	is it bc it's running render again after the handlechange happens?
+01:27:56	Corey Michaud:	I don’t see the console log outputs
+01:28:26	Corey Michaud:	Where would it show up
+01:28:40	Nicholas Yardich:	what did we have to edit outside of login.js
+01:28:56	Corey Michaud:	Ohhhh I see thank you
+01:29:11	Nicholas Yardich:	thanks
+01:30:03	Conor O'Malley:	how do we disable the div is the error is null
+01:30:56	Corey Michaud:	Unrelated but how is the color of your code different than mine
+01:31:04	Christopher Feltner:	That gets set in your code editor
+01:31:09	Jacob Feigenheimer:	I'd imagine that's just ide options.
+01:31:11	Corey Michaud:	I have VSC
+01:31:11	Christopher Feltner:	You can set different color schemes
+01:31:12	Jake Belga:	Yep
+01:31:13	Corey Michaud:	yes
+01:31:14	Corey Michaud:	ah
+01:31:14	Lior Barak:	yes
+01:31:14	Conor O'Malley:	how does the component know to use handleSubmit?
+01:31:20	Nicholas Gray:	how do you run login.js specifically again?
+01:31:27	Nicholas Yardich:	when i type in the textboxes no text appears
+01:31:48	Owen Brahms:	You don't, you run the whole app, and login.js should be implemented as a component
+01:31:49	Conor O'Malley:	oh right yeah just saw that
+01:32:00	Owen Brahms:	I think
+01:32:23	Lior Barak:	oh yea i copy pasted the page
+01:32:27	Lior Barak:	no wonder it doesn't look like that
+01:32:55	Matt Carreon:	I think its at /signup
+01:33:44	Conor O'Malley:	??????????
+01:33:52	Conor O'Malley:	already registered? sign up now?
+01:34:04	Lior Barak:	ye that doesn't sound right
+01:34:10	Lior Barak:	already registered? sign in
+01:34:13	Lior Barak:	or not registered? sign up
+01:34:14	Lior Barak:	imo
+01:34:16	Conor O'Malley:	yeah
+01:34:42	Conor O'Malley:	lmao
+01:35:07	Nicholas Yardich:	I can't type in my textboxes
+01:35:29	Nicholas Yardich:	i have both names
+01:35:49	Nicholas Yardich:	ohh nvm i found it
+01:35:55	Nicholas Yardich:	i had onChance on onChange
+01:36:39	Conor O'Malley:	can you see passwords on the firebase console?
+01:36:49	Jacob Feigenheimer:	Fancy
+01:37:59	Corey Michaud:	How do we understand to use all of that
+01:38:02	Jacob Feigenheimer:	So just curious but if we try to play with this later on, and have questions would there be a good time to bring this up in the future? Or would it just be if we can flag you guys down and have the free time?
+01:38:33	Conor O'Malley:	could you use JWT with firebase?
+01:39:45	Jacob Feigenheimer:	Appreciated, also just curious but where did you pick up your info on this? Just stack overflow with playing with things or did you go through their docs / videos and such?
+01:40:08	Lior Barak:	he was born with a MASSIVE brain
+01:40:25	Nicholas Yardich:	i think LinkedIn learning has a course on react and it's free for ucf students
+01:40:36	Matt Carreon:	scrimba has a good free one
+01:40:39	Matt Carreon:	for react
+01:40:39	Jacob Feigenheimer:	Oh that's even better.
+01:41:02	Jacob Feigenheimer:	I've been astonished that the school doesn't advertise the LinkedIn learning more.
+01:41:03	Conor O'Malley:	you should deploy yours at the end so we can all chat together on it
+01:41:05	Matt Carreon:	theodinproject also just released their react lessons
+01:41:17	Conor O'Malley:	whats the link
+01:41:23	Nicholas Yardich:	yeah LinkedIn learning is crazy you can learn tons of stuff for free and put it directly on your linkedin
+01:41:53	Dennis Cepero:	been using LinkedIn learning/Lynda for years... its amazing
+01:42:18	Jacob Feigenheimer:	Plus if it gives you a certification it's even better. 
+01:42:19	Ricardo Ruiz:	So a styles framework for React?
+01:42:36	Jake Belga:	I've been taught to just write sites from scratch, where has this been all my life xd
+01:42:38	Jacob Feigenheimer:	Better than doing YouTube videos I'd imagine for that reason alone.
+01:43:37	Conor O'Malley:	thanks for the workshop, i have to go but I actually learned alot
+01:43:40	Conor O'Malley:	cya bro
+01:44:58	Eric Sayegh:	Where can we find the recordings once they are posted?
+01:45:05	Jacob Feigenheimer:	They have a YouTube page.
+01:45:22	Eric Sayegh:	oh nice okay thank!
+01:49:50	Jake Belga:	not related to functionality, but how come we don't need a semicolon after the closing parenthesis of the db.ref() line?
+01:50:19	Owen Brahms:	Because JavaScript cares not for semicolons
+01:50:28	Jake Belga:	Ah I see
+01:50:38	Robert Boyd:	You *should* use them, but it isn’t mandatory
+01:50:43	Owen Brahms:	^
+01:50:50	Lior Barak:	i use semi colons in my English essays bro
+01:51:05	Lior Barak:	at the end of each line.. not for the intended use xd
+01:51:17	Jake Belga:	Lol
+01:53:48	Jacob Feigenheimer:	Also just curious but will the logs in chat be saved for later as well?
+01:54:10	Robert Boyd:	If you want the chat logs I can upload them in the Youtube description
+01:54:21	Jacob Feigenheimer:	That'd be appreciated Robert, thanks.
+01:54:28	Robert Boyd:	Making a note now
+01:54:46	Jake Belga:	Yep!
+01:54:55	Robert Boyd:	I think it is just a .txt so maybe not the most readable format but I will upload them
+01:55:01	Nicholas Gray:	I got lost a while ago, but just listening and learning
+01:55:02	Lior Barak:	I've just been following but didn't manage to copy ur code
+01:55:23	Lior Barak:	sweet
+01:55:54	Jacob Feigenheimer:	And just to make sure one more time but all this code has been mostly through React, where as more of the database stuff was firebase stuff?
+01:56:14	Robert Boyd:	This was mostly react, with firebase to store things
+01:56:31	Lior Barak:	chat works :DD
+01:56:51	Lior Barak:	lets move from zoom chat to that chat
+01:56:56	Lior Barak:	it'll probably be less laggy too
+01:57:36	Owen Brahms:	I'm getting a weird compile error in handleSubmit. It's saying that chats is undefined
+01:57:58	Owen Brahms:	Ah, no I did not!
+02:00:34	Owen Brahms:	What was the command in the terminal for this? I missed that
+02:01:01	Jake Belga:	This whole last part of the command line is for deploying correct?
+02:01:43	Robert Boyd:	Did you actually build?
+02:03:22	Jonathan Dieu:	thank you so much this was super helpful
+02:03:38	Lior Barak:	hey that's my password!
+02:03:56	Lior Barak:	if you type your password in the chat it show up as ******** try it
+02:04:10	Jake Belga:	Yeah this was really good, I've been meaning to learn new web tools, but didn't really know where to start lol
+02:04:10	Lior Barak:	hunter2
+02:04:14	Harold Padilla:	I said no cyber terrorism >:(
+02:04:15	Dennis Cepero:	hunter2
+02:04:19	Dennis Cepero:	wow it works
+02:04:20	Jacob Feigenheimer:	Appreciate you for taking the time.
+02:04:22	Lior Barak:	amazing
+02:04:26	Nicholas Gray:	Thank you for the workshop! This was really interesting!
+02:04:31	Sabrina Lopez:	^
+02:04:46	Jacob Feigenheimer:	Oh damn...
+02:04:50	Jacob Feigenheimer:	That's fucked...
+02:04:54	Lior Barak:	Thank you so much for this lecture, I didn't really know what to expect but I feel like I learned a lot and got great exposure
+02:04:59	Owen Brahms:	Good to know! Thank you for the heads up!
+02:05:00	Jacob Feigenheimer:	Is that seriously a thing that happens @random scrapers
+02:05:01	Harold Padilla:	AYYYYEEEE DYLANNN WOOOOOOOOOO
+02:05:04	Dennis Cepero:	Thanks Dylan
+02:05:13	Robert Boyd:	Your -> you’re
+02:05:20	Nicholas Gray:	._.
+02:05:30	Nicholas Gray:	I can't unsee it
+02:05:33	Nathan Little:	Thanks for hosting, this was a lot to learn and I hope to dissect tomorrow lol
+02:05:37	Joseph Sauceda:	Thank you! Dylan
+02:05:40	Corey Michaud:	Omg did you mean *you're
+02:05:43	Owen Brahms:	Thank you so much for hosting!
+02:05:47	Lior Barak:	LMAOO
+02:05:50	Harold Padilla:	F
+02:05:51	John Pham:	LOL
+02:05:54	Ricardo Ruiz:	RIP
+02:06:02	Jacob Feigenheimer:	Ooof...
