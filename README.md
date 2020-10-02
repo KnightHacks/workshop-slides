@@ -16,4 +16,4 @@ command
 ```
 git clone --recurse-submodules https://github.com/KnightHacks/workshop-slides.git
 ```
-if you want to recursively clone all of the code for every workshop.
+This will recursively clone all of the code for every workshop.
