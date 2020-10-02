@@ -1,3 +1,6 @@
 [submodule "2020-10-01 React and Firebase/KH-React-Firebase-Workshop"]
 	path = 2020-10-01 React and Firebase/KH-React-Firebase-Workshop
 	url = https://github.com/Dylans123/KH-React-Firebase-Workshop
+[submodule "2020-09-17 Markov Chains/workshops"]
+	path = 2020-09-17 Markov Chains/workshops
+	url = https://github.com/Hevia/workshops
