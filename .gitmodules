@@ -4,3 +4,6 @@
 [submodule "2020-09-17 Markov Chains/workshops"]
 	path = 2020-09-17 Markov Chains/workshops
 	url = https://github.com/Hevia/workshops
+[submodule "2020-10-08 Azure/knighthacks-azure-functions-workshop"]
+	path = 2020-10-08 Azure/knighthacks-azure-functions-workshop
+	url = https://github.com/jcbang/knighthacks-azure-functions-workshop
