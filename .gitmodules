@@ -7,3 +7,6 @@
 [submodule "2020-10-08 Azure/knighthacks-azure-functions-workshop"]
 	path = 2020-10-08 Azure/knighthacks-azure-functions-workshop
 	url = https://github.com/jcbang/knighthacks-azure-functions-workshop
+[submodule "2020-11-11 HTML, CSS, and JS 1/html-css-js-template"]
+	path = 2020-11-11 HTML, CSS, and JS 1/html-css-js-template
+	url = https://github.com/rob-3/html-css-js-template.git
