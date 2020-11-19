@@ -10,3 +10,6 @@
 [submodule "2020-11-11 HTML, CSS, and JS 1/html-css-js-template"]
 	path = 2020-11-11 HTML, CSS, and JS 1/html-css-js-template
 	url = https://github.com/rob-3/html-css-js-template.git
+[submodule "2020-11-17 JavaScript: Syntax and Paradigms/todo-list"]
+	path = 2020-11-17 JavaScript: Syntax and Paradigms/todo-list
+	url = https://github.com/rob-3/todo-list.git
