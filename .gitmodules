@@ -13,3 +13,6 @@
 [submodule "2020-11-17 JavaScript: Syntax and Paradigms/todo-list"]
 	path = 2020-11-17 JavaScript: Syntax and Paradigms/todo-list
 	url = https://github.com/rob-3/todo-list.git
+[submodule "2021-01-21 Flutter/flutter-demo-for-knighthacks"]
+	path = 2021-01-21 Flutter/flutter-demo-for-knighthacks
+	url = https://github.com/APherwani/flutter-demo-for-knighthacks
