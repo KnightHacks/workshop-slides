@@ -16,3 +16,6 @@
 [submodule "2021-01-21 Flutter/flutter-demo-for-knighthacks"]
 	path = 2021-01-21 Flutter/flutter-demo-for-knighthacks
 	url = https://github.com/APherwani/flutter-demo-for-knighthacks
+[submodule "2021-02-11 MERN Stack/MERN-App"]
+	path = 2021-02-11 MERN Stack/MERN-App
+	url = https://github.com/Dylans123/MERN-App.git
