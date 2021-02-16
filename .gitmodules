@@ -19,3 +19,6 @@
 [submodule "2021-02-11 MERN Stack/MERN-App"]
 	path = 2021-02-11 MERN Stack/MERN-App
 	url = https://github.com/Dylans123/MERN-App.git
+[submodule "2021-02-16 CSS/knight-hacks-css-workshop"]
+	path = 2021-02-16 CSS/knight-hacks-css-workshop
+	url = https://github.com/chrisfeltner/knight-hacks-css-workshop
