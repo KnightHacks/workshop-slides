@@ -22,3 +22,6 @@
 [submodule "2021-02-16 CSS/knight-hacks-css-workshop"]
 	path = 2021-02-16 CSS/knight-hacks-css-workshop
 	url = https://github.com/chrisfeltner/knight-hacks-css-workshop
+[submodule "2021-02-25 Alexa/knight-hacks-alexa-skill-workshop"]
+	path = 2021-02-25 Alexa/knight-hacks-alexa-skill-workshop
+	url = https://github.com/chrisfeltner/knight-hacks-alexa-skill-workshop
