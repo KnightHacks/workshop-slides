@@ -25,3 +25,6 @@
 [submodule "2021-02-25 Alexa/knight-hacks-alexa-skill-workshop"]
 	path = 2021-02-25 Alexa/knight-hacks-alexa-skill-workshop
 	url = https://github.com/chrisfeltner/knight-hacks-alexa-skill-workshop
+[submodule "2021-03-02 Pointers/knight-hacks-pointers-workshop"]
+	path = 2021-03-02 Pointers/knight-hacks-pointers-workshop
+	url = https://github.com/chrisfeltner/knight-hacks-pointers-workshop
